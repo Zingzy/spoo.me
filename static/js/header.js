@@ -1,1 +1,1 @@
-window.addEventListener("scroll",function(){var a=document.querySelector(".navbar"),b=document.querySelector(".mobile-navbar");30<window.pageYOffset?(a.classList.add("scrolled"),b.classList.add("scrolled")):(a.classList.remove("scrolled"),b.classList.remove("scrolled"))});
+window.addEventListener("scroll",function(){var c=document.querySelector(".navbar"),a=document.querySelector(".mobile-navbar");30<window.pageYOffset?(c.classList.add("scrolled"),a.classList.add("scrolled")):(c.classList.remove("scrolled"),a.classList.remove("scrolled"))});
