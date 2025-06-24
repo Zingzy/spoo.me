@@ -249,10 +249,12 @@ def redirect_url(short_code):
         (1 - alpha) * curr_avg + alpha * redirection_time, 2
     )
 
-    if is_emoji:
-        update_emoji_url(short_code, updates)
-    else:
-        update_url(short_code, updates)
+    # temporarily disable stats
+    
+    # if is_emoji:
+    #     update_emoji_url(short_code, updates)
+    # else:
+    #     update_url(short_code, updates)
 
     return redirect(url)
 
