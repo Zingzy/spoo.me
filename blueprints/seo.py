@@ -32,3 +32,9 @@ def serve_robots():
 @limiter.exempt
 def serve_favicon():
     return send_file("static/images/favicon.ico")
+
+
+@seo.route("/ads.txt")
+@limiter.exempt
+def serve_ads_txt():
+    return send_file("misc/ads.txt")
