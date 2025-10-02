@@ -8,4 +8,11 @@ Allow: /report
 Allow: /contact
 Allow: /docs/
 
+User-agent: Mediapartners-Google
+Allow: /ads.txt
+
+User-agent: Google-Display-Ads-Bot
+Allow: /ads.txt
+
+
 Sitemap: https://spoo.me/sitemap.xml
